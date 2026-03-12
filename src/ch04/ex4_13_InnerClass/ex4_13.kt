@@ -1,4 +1,4 @@
-package ch04.ex4_13
+package ch04.ex4_13_InnerClass
 
 import java.io.Serializable
 

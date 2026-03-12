@@ -1,4 +1,4 @@
-package ch04.ex4_16
+package ch04.ex4_16_ExpressionWithInterface
 
 interface Expr
 class Num(val value: Int) : Expr

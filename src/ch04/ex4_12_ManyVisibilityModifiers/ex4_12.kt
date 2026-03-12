@@ -1,4 +1,4 @@
-package ch04.ex4_12
+package ch04.ex4_12_ManyVisibilityModifiers
 
 internal open class TalkativeButton {
     private fun yell() = println("Hey!")

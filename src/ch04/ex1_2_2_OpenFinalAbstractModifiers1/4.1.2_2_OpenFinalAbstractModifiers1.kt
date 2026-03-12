@@ -6,5 +6,5 @@ interface Clickable {
 }
 
 open class RichButton : Clickable {
-    final override fun click() {}
+    final override fun click() {} //override메서드의 오버라이드 금지시키기
 }
