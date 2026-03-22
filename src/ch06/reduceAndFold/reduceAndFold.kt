@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     // 24
 
     val people = listOf(Person("Alex", 29), Person("Natalia", 28))
-    val folded = people.fold(" ") {
+    val folded = people.fold("") {
         acc, person -> acc + person.name
     }
     println(folded)
