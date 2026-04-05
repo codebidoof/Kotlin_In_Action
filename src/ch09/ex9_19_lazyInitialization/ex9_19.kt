@@ -1,10 +1,10 @@
 package ch09.ex9_19_lazyInitialization
 
-import ch09.ex9_18_backingProperty.loadEmails
-
-class Person(val name: String) {
-    val emails by lazy { loadEmails(this) }
-}
+//import ch09.ex9_18_backingProperty.loadEmails
+//
+//class Person(val name: String) {
+//    val emails by lazy { loadEmails(this) }
+//}
 
 
 //
