@@ -2,7 +2,7 @@ package ch06.asSequence
 
 import ch06.filterAndMap.Person
 
-fun main(args: Array<String>) {
+fun main() {
     val people = listOf(
         Person("Alice", 29),
         Person("Bob", 31),

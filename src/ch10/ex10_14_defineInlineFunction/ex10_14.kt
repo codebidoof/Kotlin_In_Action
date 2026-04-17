@@ -21,6 +21,17 @@ fun foo (l: Lock) {
     println("After sync")
 }
 
+fun __foo__(l: Lock) {
+    println("Before sync")
+    l.lock()
+    try {
+        println("Action")
+    } finally {
+        l.unlock()
+    }
+    println("After sync")
+}
+
 class LockOwner(val lock: Lock) {
     fun runUnderLock(body: () -> Unit) {
         synchronized(lock, body) // 이 경우에 람다 본문은 인라이닝되지 않음. 대신 synchronized 함수의 본문만 인라이닝됨.
