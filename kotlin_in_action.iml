@@ -12,5 +12,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="KotlinReflect" level="project" />
+    <orderEntry type="library" name="kotlinx-html-jvm" level="project" />
+    <orderEntry type="library" name="junit" level="project" />
+    <orderEntry type="library" name="kotest" level="project" />
+    <orderEntry type="library" name="exposed" level="project" />
   </component>
 </module>
