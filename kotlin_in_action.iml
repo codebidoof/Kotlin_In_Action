@@ -16,5 +16,6 @@
     <orderEntry type="library" name="junit" level="project" />
     <orderEntry type="library" name="kotest" level="project" />
     <orderEntry type="library" name="exposed" level="project" />
+    <orderEntry type="library" name="kotlinx-coroutines-core" level="project" />
   </component>
 </module>
